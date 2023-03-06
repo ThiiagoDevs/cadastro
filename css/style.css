@@ -1,0 +1,96 @@
+/* geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+  }
+  input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+  a {
+    color: #000fe6;
+  }
+  body {
+    background-color: #323232;
+    padding-top: 5vh;
+    background-size: cover;
+    background-position-y: -150px;
+  }
+  /* form */
+  #main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(252, 250, 250);
+    border-radius: 5px;
+    padding: 25px;
+  }
+  #main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .full-box {
+    flex: 1 1 100%;
+    position: relative;
+  }
+  .half-box {
+    flex: 1 1 45%;
+    position: relative;
+  }
+  .spacing {
+    margin-right: 2.5%;
+  }
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+  }
+  input:focus {
+    border-color: #000fe6;
+  }
+  input[type="submit"] {
+    background-color: #000fe6;
+    color: rgb(239, 240, 241);
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+  }
+  #agreement {
+    margin-right: 5px;
+  }
+  #agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+  }
+  .error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    bottom: 18px;
+    top: 57px;
+    font-size: 12px;
+  }
+  
+  .half-box .error-validation {
+    bottom: 8px;
+  }
+  
+  .template {
+    display: none;
+  }
